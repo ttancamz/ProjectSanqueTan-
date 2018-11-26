@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sanque.tan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".home_page" />
+        <activity
+            android:name=".cough"
+            android:label="@string/title_activity_cough" />
+        <activity android:name=".fever" />
+        <activity android:name=".ulcer" />
+        <activity android:name=".asthma" />
+        <activity android:name=".navbar" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".contactus" />
+        <activity android:name=".cold" />
+        <activity android:name=".measles" />
+        <activity android:name=".arthritis" />
+        <activity android:name=".chickenpox" />
+        <activity android:name=".dehydration" />
+        <activity android:name=".diabetes" />
+        <activity android:name=".diarrhoea" />
+        <activity android:name=".dysmenorrhea" />
+        <activity android:name=".legcramps" />
+        <activity android:name=".migraine" />
+        <activity android:name=".mumps" />
+        <activity android:name=".nosebleed" />
+        <activity android:name=".sorethroat" />
+        <activity android:name=".tummyache" />
+        <activity android:name=".stroke" />
+        <activity android:name=".uti"></activity>
+    </application>
+
+</manifest>
